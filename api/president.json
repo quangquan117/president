@@ -1,0 +1,75 @@
+{
+    "president": [{
+        "Nom": "Charles de Gaulles",
+        "Mandat": "1959-1969",
+        "Naissance": "1890",
+        "Mort": "1970",
+        "Image": {
+            "path": "./asset/Charles_de_Gaulles.jpeg"
+        }
+    },
+    {
+        "Nom": "George Pompidous",
+        "Mandat": "1969-1974",
+        "Naissance": "1911",
+        "Mort": "1974",
+        "Image": {
+            "path": "./asset/George_Pompidou.jpeg"
+        }
+    },
+    {
+        "Nom": "Valérie Giscard Estaing",
+        "Mandat": "1974-1981",
+        "Naissance": "1926",
+        "Mort": "2020",
+        "Image": {
+            "path": "./asset/Valérie_Giscard_Estaing.jpeg"
+        }
+    },
+    {
+        "Nom": "François Mitterand",
+        "Mandat": "1981-1995",
+        "Naissance": "1916",
+        "Mort": "1996",
+        "Image": {
+            "path": "./asset/François_Mitterand.jpeg"
+        }
+    },
+    {
+        "Nom": "Jacques Chirac",
+        "Mandat": "1995-2007",
+        "Naissance": "1932",
+        "Mort": "2019",
+        "Image": {
+            "path": "./asset/Jacques_Chirac.jpeg"
+        }
+    },
+    {
+        "Nom": "Nicolas Sarkozy",
+        "Mandat": "2007-2012",
+        "Naissance": "1955",
+        "Mort": "vivant",
+        "Image": {
+            "path": "./asset/Nicolas_Sarkozy.jpeg"
+        }
+    },
+    {
+        "Nom": "François Hollande",
+        "Mandat": "2012-2017",
+        "Naissance": "1954",
+        "Mort": "vivant",
+        "Image": {
+            "path": "./asset/François_Hollande.jpeg"
+        }
+    },
+    {
+        "Nom": "Emmanuel Macron",
+        "Mandat": "2017-aujourd'hui",
+        "Naissance": "1976",
+        "Mort": "vivant",
+        "Image": {
+            "path": "./asset/Emmanuel_Macron.jpeg"
+        }
+    }]
+}
+  

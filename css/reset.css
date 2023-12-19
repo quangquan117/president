@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 html{
     font-size: 62.5%; /* 16px * 62.5% = 10.00rem */
+    list-style-type: none;
 }
 body{
     font: 1.6rem sans-serif;
