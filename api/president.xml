@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<source>
+    <president>
+        <Nom>Charles de Gaulles</Nom>
+        <Mandat>1959-1969</Mandat>
+        <Naissance>1890</Naissance>
+        <Mort>1970</Mort>
+        <Image path="./asset/500x500.png"/>
+    </president>
+    <president>
+        <Nom>George Pompidous</Nom>
+        <Mandat>1969-1974</Mandat>
+        <Naissance>1911</Naissance>
+        <Mort>1974</Mort>
+        <Image path="./asset/George_Pompidou.jpeg"/>
+    </president>
+    <president>
+        <Nom>Valérie Giscard Estaing</Nom>
+        <Mandat>1974-1981</Mandat>
+        <Naissance>1926</Naissance>
+        <Mort>2020</Mort>
+        <Image path="./asset/Valérie_Giscard_Estaing.jpeg"/>
+    </president>
+    <president>
+        <Nom>François Mitterand</Nom>
+        <Mandat>1981-1995</Mandat>
+        <Naissance>1916</Naissance>
+        <Mort>1996</Mort>
+        <Image path="./asset/François_Mitterand.jpeg"/>
+    </president>
+    <president>
+        <Nom>Jacques Chirac</Nom>
+        <Mandat>1995-2007</Mandat>
+        <Naissance>1932</Naissance>
+        <Mort>2019</Mort>
+        <Image path="./asset/Jacques_Chirac.jpeg"/>
+    </president>
+    <president>
+        <Nom>Nicolas Sarkozy</Nom>
+        <Mandat>2007-2012</Mandat>
+        <Naissance>1955</Naissance>
+        <Mort>vivant</Mort>
+        <Image path="./asset/Nicolas_Sarkozy.jpeg"/>
+    </president>
+    <president>
+        <Nom>François Hollande</Nom>
+        <Mandat>2012-2017</Mandat>
+        <Naissance>1954</Naissance>
+        <Mort>vivant</Mort>
+        <Image path="./asset/François_Hollande.jpeg"/>
+    </president>
+    <president>
+        <Nom>Emmanuel Macron</Nom>
+        <Mandat>2017-aujourd'hui</Mandat>
+        <Naissance>1976</Naissance>
+        <Mort>vivant</Mort>
+        <Image path="./asset/Emmanuel_Macron.jpeg"/>
+    </president>
+</source>
