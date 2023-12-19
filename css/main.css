@@ -29,3 +29,27 @@ ul.primary-grid li figure img{
     width: 100%;
     height: 30rem;
 }
+footer{
+    text-align: center;
+    line-height: 6rem;
+}
+
+/* media queris */
+@media screen and (max-width: 80rem){
+    ul.primary-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    header h1{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+}
+@media screen and (orentation: landscape){
+    ul.primary-grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    header h1{
+        font-size: xx-large;
+        margin: 5rem;
+    }
+}

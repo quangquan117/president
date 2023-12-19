@@ -1,5 +1,6 @@
+import { time } from "./date.js";
 document.addEventListener("DOMContentLoaded", e => {
-    console.dir("here");
+    console.dir(time.dates + "\n" + time.el.innerHTML);
 
     let xml, xmlhttp, xmlDoc, vliste;
 
@@ -26,24 +27,25 @@ document.addEventListener("DOMContentLoaded", e => {
         console.log(Nom + " " + Mandat + " " + Naissance + " " + Mort);
 
         vliste += `<li>
-                        <figure>
-                        <img src="${Image}" alt="${Nom}"></img>
-                            <figcpation>
-                                <ul>
-                                    <li><strong>Nom</strong> : ${Nom}</li>
-                                    <li><strong>Mandat</strong> : ${Mandat}</li>
-                                    <li><strong>Naissance</strong> : ${Naissance}</li>
-                                    <li><strong>Mort</strong> : ${Mort}</li>
-                                </ul>
-                            </figcpation>
-                        </figure>
-                    </li>`;
+            <figure>
+                <img src="${Image}" alt="${Nom}"></img>
+                <figcpation>
+                    <ul>
+                        <li><strong>Nom</strong> : ${Nom}</li>
+                        <li><strong>Mandat</strong> : ${Mandat}</li>
+                        <li><strong>Naissance</strong> : ${Naissance}</li>
+                        <li><strong>Mort</strong> : ${Mort}</li>
+                    </ul>
+                </figcpation>
+            </figure>
+        </li>`;
         //stockage dans un tableau
-        myStock = [];
+        let myStock = [];
         myStock.push(Nom, Mandat, Naissance, Mort, Image);
         console.log(JSON.stringify(myStock));
         localStorage.setItem("stock", myStock);
     }
 
     document.querySelector("ul").innerHTML = vliste;
+    time.printOut();
 });
