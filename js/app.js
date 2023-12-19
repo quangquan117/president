@@ -25,11 +25,19 @@ document.addEventListener("DOMContentLoaded", e => {
         //ajout de chaque propriété dans boucle
         console.log(Nom + " " + Mandat + " " + Naissance + " " + Mort);
 
-        vliste += "<li>Nom : " + Nom + "</li>";
-        vliste += "<li>Mandat : " + Mandat + "</li>";
-        vliste += "<li>Naissance : " + Naissance + "</li>";
-        vliste += "<li>Mort : " + Mort + "</li>";
-        vliste += `<img src="${Image}" alt="${Nom}"></img>`;
+        vliste += `<li>
+                        <figure>
+                        <img src="${Image}" alt="${Nom}"></img>
+                            <figcpation>
+                                <ul>
+                                    <li><strong>Nom</strong> : ${Nom}</li>
+                                    <li><strong>Mandat</strong> : ${Mandat}</li>
+                                    <li><strong>Naissance</strong> : ${Naissance}</li>
+                                    <li><strong>Mort</strong> : ${Mort}</li>
+                                </ul>
+                            </figcpation>
+                        </figure>
+                    </li>`;
         //stockage dans un tableau
         myStock = [];
         myStock.push(Nom, Mandat, Naissance, Mort, Image);
